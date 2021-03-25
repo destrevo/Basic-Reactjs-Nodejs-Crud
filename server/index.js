@@ -10,6 +10,8 @@ const db = mysql.createConnection({
     database: 'employees'
 })
 
+"git commit test"
+
 app.use(cors())
 app.use(express.json())
 app.post('/create', (req, res) => {
